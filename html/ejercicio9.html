@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo HTML Formulario</title>
+</head>
+
+<body>
+    <h1>Ejemplo HTML Formulario</h1>
+    <form action="">
+        <fieldset>
+
+            <legend>Datos Paciente</legend>
+
+            Cedula: <input placeholder="######" autofocus type="text" pattern="[0-9]{6,12}"><br>
+
+            <label for="">Nombre paciente:</label> <input placeholder="Sr|Sra Nombre" size="40" type="text"
+                pattern="(Sr|Sra) [A-Z]{1}[a-z ]*"><br>
+
+            <label for="">Fecha nacimiento:</label> <input placeholder="YYYY/MM/DD" pattern="\d{4}/\d{2}/\d{2}"><br>
+
+
+            <label for="">Telefono:</label> <input placeholder="+(##) ### ### ###" type="text"
+                pattern="\+\d{2} \d{3} \d{3} \d{3}"><br>
+
+
+
+            <input type="submit" value="Enviar Datos"><br>
+        </fieldset>
+
+        <textarea cols="30" rows="3"></textarea>
+    </form>
+</body>
+
+</html>
