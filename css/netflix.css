@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+nav {
+    height: 100px;
+}
+
+nav>div>a{
+    color: white;
+    justify-content: space-between;
+}
+
+.divUno{
+    width: 20%;
+}
+
+.divDos{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divTres{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.img{
+    height: 80px;
+    width: 250px;
+}

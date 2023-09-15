@@ -7,7 +7,7 @@ h1{
 }
 
 nav>a{
-    color: black;
+    color: white;
     font-size: 14px;
     margin-right: 25px;
 }
@@ -23,22 +23,30 @@ img{
 
  .flexContainer{
     display: flex;
-    background-color: brown;
-    justify-content: space-between;
+    
  }
 
  .divIzquierdo{
     width: 70%;
-    background-color: orange;
  }
 
  .divDerecho{
     width: 28%;
-    background-color: rebeccapurple;
     height: 100%;
  }
 
- .divFlex{
-    display: flex;
- }
- 
+ .divDondoIzquierdo{
+   width: 50%;
+}
+
+.imagenTamaño{
+   width: 100px;
+   height: 100px;
+}
+
+.flexContainerDos{
+   text-align: center;
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+}
